@@ -61,6 +61,10 @@ endif
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/etc/ad_calib.cfg:system/etc/ad_calib.cfg
 
+# NuclearWalls
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/app/NuclearWallpaper.apk:system/app/NuclearWallpaper.apk
+
 # Signature compatibility validation
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/otasigcheck.sh:install/bin/otasigcheck.sh
