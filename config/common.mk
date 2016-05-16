@@ -57,6 +57,10 @@ PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/blacklist:system/addon.d/blacklist
 endif
 
+# Assertive Display
+PRODUCT_COPY_FILES += \
+    vendor/cm/prebuilt/common/etc/ad_calib.cfg:system/etc/ad_calib.cfg
+
 # Signature compatibility validation
 PRODUCT_COPY_FILES += \
     vendor/cm/prebuilt/common/bin/otasigcheck.sh:install/bin/otasigcheck.sh
